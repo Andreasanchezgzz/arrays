@@ -2,3 +2,5 @@
 // Instrucciones: Verifica si todos los pergaminos tienen un valor mayor a 60.
 const pergaminos = [65, 70, 85, 90, 50];
 // Escribe tu solución aquí usando every():
+const pergaminoValor= pergaminos.every(pergaminos => pergaminos > 60);
+console.log (pergaminoValor);
