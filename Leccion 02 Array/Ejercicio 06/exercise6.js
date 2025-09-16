@@ -2,3 +2,5 @@
 // Instrucciones: Multiplica los niveles de protección por 1.5.
 const anillosProteccion = [10, 20, 30, 40, 50];
 // Escribe tu solución aquí usando map():
+const poder = anillosProteccion.map (anillosProteccion * 1.5);
+console.log (anillosProteccion);
