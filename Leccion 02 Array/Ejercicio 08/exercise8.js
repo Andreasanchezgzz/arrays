@@ -2,3 +2,5 @@
 // Instrucciones: Verifica si al menos un hechizo tiene un poder mayor a 100.
 const hechizos = [60, 80, 110, 95, 85];
 // Escribe tu solución aquí usando some():
+const PoderHechizo = hechizos.some(hechizos => hechizos > 100);
+console.log (PoderHechizo);
