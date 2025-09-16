@@ -2,5 +2,5 @@
 // Instrucciones: Cuenta cuántas espadas tienen un poder mayor a 50.
 const espadas = [20, 60, 45, 80, 90, 30];
 // Escribe tu solución aquí usando reduce():
-const Numespadas = espadas.reduce((contador, espada) => espada > 50 ? contador + 1 : contador, 0);
+const Numespadas = espadas.reduce((contador, espadas) => espadas > 50 ? contador + 1 : contador, 0);
 console.log (Numespadas);
